@@ -142,7 +142,7 @@ const UI = {
     const button = document.createElement('button');
     button.id = 'ojp-toggle-button';
     button.type = 'button';
-    button.innerHTML = '📋';
+    button.textContent = '📋';
     button.title = 'Show/Hide job description';
     button.addEventListener('click', () => {
       if (uiState.sidebarOpen) {
